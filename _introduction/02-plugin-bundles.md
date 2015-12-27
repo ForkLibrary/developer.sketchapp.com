@@ -34,7 +34,7 @@ Bundles contain a `manifest.json` file, one or more `.cocoascript` files (contai
 Here’s an example:
 
 ```
-mrwalker.sketchpluginbundle
+mrwalker.sketchplugin
   Contents/
     Sketch/
       manifest.json
@@ -80,12 +80,12 @@ Here’s an example:
     {
       "name": "Circles",
       "identifier": "circles",
-      "script": "Select Circles.js"
+      "script": "Select Circles.cocoascript"
     },
     {
       "name": "Rectangles",
       "identifier": "rectangles",
-      "script": "Select Rectangles.js"
+      "script": "Select Rectangles.cocoascript"
     }
   ],
   "menu": {
